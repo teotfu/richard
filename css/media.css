@@ -1,0 +1,85 @@
+@media screen and (max-width: 1400px) { 
+    .header__desc-p {
+        width: 400px;
+    }
+    .header__main-image-img{
+        height: 630px;
+        width: 600px;
+        transform: translateX(-100px);
+    }
+    .header__main {
+        display: flex;
+        flex-direction: column;
+    }
+    .advantages__wrap{
+        flex-wrap: wrap;
+    }
+    .info__wrap {
+        flex-wrap: wrap;
+    }
+    .food__card {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .header__main-image-img{
+        transform: translateX(-200px);
+    }
+    .device-image-img {
+        width: 100%;
+    }
+    .quotes__auth-img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:980px) {
+    .header__main-image-img{
+        width: 400px;
+        height: 430px;
+        transform: translate(-200px, 100px);
+    }
+    .interface__item1{
+        flex-direction: column;
+        justify-content: center;    
+        align-items: center;
+    }
+    .interface__item1-img{
+        height: 637px;
+        width: 341px;
+    }
+    .interface__item2{
+        flex-direction: column;
+        justify-content: center;    
+        align-items: center;
+    }
+    .interface__item2-img{
+        height: 469px;
+        width: 386px;
+    }
+}
+@media screen and (max-width:720px) {
+    .header__main-image-img{
+        width: 300px;
+        height: 330px;
+        transform: translate(-240px, 150px);
+    }
+    .updates__form{
+        width: 300px;
+        height: 150px;
+    }
+}
+@media screen and (max-width:650px) {
+    .header__main-image-img{
+        display: none;
+    }
+}
+@media screen and (max-width:555px) {
+    .header__nav {
+        flex-direction: column; 
+        gap: 30px;
+    }
+}
